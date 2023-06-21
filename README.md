@@ -50,3 +50,7 @@ Finds combinations of rows from the specified column where the sum of values in 
 Writes the resulting combinations to the output file.
 If the target sum cannot be reached due to minimum limits, it writes an appropriate message to the output file.
 Make sure to replace 'path/to/excel_file.xlsx' with the actual path to your Excel file and adjust the other parameters according to your requirements.
+
+#**Note**
+
+The output file is in a .txt format so you can insert this to an excel shhet via data import 
