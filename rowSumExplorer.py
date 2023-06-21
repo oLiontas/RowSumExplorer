@@ -70,7 +70,7 @@ class ExcelColumnCombination:
                 break
             if max_combinations is not None and len(result_dfs) >= max_combinations:
                 break
-            #print(sum(combination))
+            
             if sum(combination) == self.target_sum:
                 indices = [i for i, val in enumerate(column_values) if val in combination][:self.n]
                 result_df = df.iloc[indices].copy()
