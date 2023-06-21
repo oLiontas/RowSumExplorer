@@ -56,7 +56,7 @@ class ExcelColumnCombination:
         if self.bypass_time_limit:
             time_limit = None
         column_values = df[self.column_name].tolist()
-        #print(column_values)---delete this after filanl
+        
         # Check if target_sum can be reached based on minimum values
         sorted_column_values = sorted(column_values)
 
