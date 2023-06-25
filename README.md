@@ -1,4 +1,9 @@
-# Instructions
+# GENERAL
+
+Many times we want an excel table that will result from combinations of additions in a column of our choice. With this package, by selecting the initial excel table, the column and the target number, we will get a dataframe in txt format, which we can then import into an excel table from the external data import option. Of course, the time the results will take depends on the time complexity, i.e. the number of combinations that the program must execute. For this reason there are parameters that you will be able to set and choose if you want it to return the first single result it finds, to return the number of combinations you want, to stop the execution in a time that you have determine.
+
+
+## Instructions
 - Create an instance of the ExcelColumnCombination class by providing the required parameters:
 
 
