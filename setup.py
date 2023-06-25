@@ -18,5 +18,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['code'],
-    install_requires=['requests'],
+    install_requires=['pandas','openpyxl','itertools'],
 )
