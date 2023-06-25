@@ -60,7 +60,11 @@ class ExcelColumnCombination:
         # Check if target_sum can be reached based on minimum values
         sorted_column_values = sorted(column_values)
 
-        if self.target_sum <= sum(sorted_column_values[:self.n]):
+        if self.target_sum < sum(sorted_column_values[:self.n]):
+            return None
+        
+        # Check if target_sum is greater than the maximum sum of the n biggest numbers
+        if self.target_sum > sum(sorted_column_values[-self.n:]):
             return None
 
         result_dfs = []
