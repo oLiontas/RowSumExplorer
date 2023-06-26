@@ -12,7 +12,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     donwload_url='https://github.com/oLiontas/RowSumExplorer/archive/refs/tags/v1.0.tar.gz',
-    url='https://github.com/oLiontas/RowSumExplorer/code',
+    url='https://github.com/oLiontas/RowSumExplorer',
     project_urls = {
         ""
     },
