@@ -1,4 +1,4 @@
-oimport setuptools
+import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
@@ -18,5 +18,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['rowSumExplorer'],
-    install_requires=['pandas','openpyxl','itertools'],
+    install_requires=['pandas','openpyxl']
 )

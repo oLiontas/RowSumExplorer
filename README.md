@@ -4,12 +4,12 @@ Many times we want an excel table that will result from combinations of addition
 
 
 ## Instructions
-- Create an instance of the ExcelColumnCombination class by providing the required parameters:
+- Create an instance of the SetExcelColumn class by providing the required parameters:
 
 
 <code>
 
-    ec = ExcelColumnCombination(excel_path='path/to/excel_file.xlsx',
+    ec = SetExcelColumn(excel_path='path/to/excel_file.xlsx',
                                 sheet_name='Sheet1',
                                 cell_range='A:1:D:10',
                                 target_sum=100,
@@ -58,4 +58,5 @@ Make sure to replace 'path/to/excel_file.xlsx' with the actual path to your Exce
 
 #**Note**
 
-The output file is in a .txt format so you can insert this to an excel shhet via data import 
+The output file is in a .txt format so you can insert this to an excel sheet via data import
+
