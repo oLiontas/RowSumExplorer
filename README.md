@@ -9,7 +9,7 @@ Many times we want an excel table that will result from combinations of addition
 
 <code>
 
-    ec = SetExcelColumn(excel_path='path/to/excel_file.xlsx',
+    ec = rowSumExplorer.SetExcelColumn(excel_path='path/to/excel_file.xlsx',
                                 sheet_name='Sheet1',
                                 cell_range='A:1:D:10',
                                 target_sum=100,
