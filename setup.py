@@ -11,7 +11,7 @@ setuptools.setup(
     description='Testing installation of Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    donwload_url='https://github.com/oLiontas/RowSumExplorer/archive/refs/tags/v1.0.tar.gz',
+    donwload_url='https://github.com/oLiontas/RowSumExplorer/blob/main/dist/rowSumExplorer-1.0.tar.gz',
     url='https://github.com/oLiontas/RowSumExplorer',
     project_urls = {
         ""
