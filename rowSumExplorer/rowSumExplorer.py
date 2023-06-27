@@ -4,7 +4,7 @@ from itertools import combinations
 import time
 
 
-class ExcelColumnCombination:
+class SetExcelTableColumn:
     def __init__(self, excel_path, sheet_name, cell_range, target_sum, n, column_name,time_limit,max_combinations,first_result):
         self.excel_path = excel_path
         self.sheet_name = sheet_name
