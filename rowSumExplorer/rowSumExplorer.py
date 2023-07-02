@@ -85,8 +85,8 @@ class SetExcelTableColumn:
                     sum_row = pd.DataFrame({self.column_name: column_sum}, index=[len(result_df)])
                     result_df = pd.concat([result_df, sum_row], axis=0, ignore_index=True)
 
-                    # Set "ΣΥΝΟΛΟ" in the first column of the new row
-                    result_df.at[len(result_df) - 1, df.columns[0]] = "ΣΥΝΟΛΟ"
+                    # Set "Total" in the first column of the new row
+                    result_df.at[len(result_df) - 1, df.columns[0]] = "TOTAL"
 
                     # Set the total sum in the last column of the new row
                     result_df.at[len(result_df) - 1, self.column_name] = column_sum
